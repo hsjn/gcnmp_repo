@@ -1,0 +1,15 @@
+
+
+THIS APPLIES ON M4400:
+      http://jean-pierre.moreau.pagesperso-orange.fr/f_eqdiff.html
+      solve ode system
+      gmake -f Makefile
+      setenv LD_LIBRARY_PATH /opt/intel/Compiler/11.0/081/mkl/lib/em64t:$LD_LIBRARY_PATH
+
+       note that gcnmp is in  /var/GCNMP/GCNMP/  gnuplot>  plot  "force.dat" using 1:2 title 'Column', \
+                      "force.dat" using 1:3 title 'Beam'
+
+
+ 
+transfer files from m4400 to this mac:
+scp readmehsj  holger@10.0.1.13:/Users/holger/fortran/gravity_slingshot
